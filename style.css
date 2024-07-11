@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato' , sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.menu-cointainer{
+    background-color: rgb(46, 46, 46);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+
+}
+
+.menus{
+    display: flex;
+    
+}
+
+.logo-photo{
+    width: 120px;
+}
+
+
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.item:hover{
+    color: cornflowerblue;
+    transition: 0.5s;
+}
