@@ -95,6 +95,7 @@
     flex-direction: row-reverse;
     align-items: center;
     padding: 10px;
+    height: 100vh;
 }
 
 .title-2{
@@ -102,7 +103,11 @@
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    
 }
+
+
+ /* our services section  */
 
 .box{
     width: 250px;
@@ -112,6 +117,7 @@
     text-align: center;
     padding: 15px;
     color: white;
+    border-radius: 10px;
 
 }
 
@@ -144,10 +150,27 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    height: 60vh;
 }
 .service-title{
-    color: white;
+    padding: 20px;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 50vh;
+}
+
+.footer-title{
+    font-size: 20px;
+    
 }
